@@ -5,11 +5,23 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Thêm TextView mới cho input và output -->
     <TextView
-        android:id="@+id/tvDisplay"
+        android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
+        android:gravity="end"
+        android:textSize="40sp"
+        android:background="#EEEEEE"
+        android:padding="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
         android:gravity="end"
         android:textSize="40sp"
         android:background="#EEEEEE"
